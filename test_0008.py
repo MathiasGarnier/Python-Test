@@ -1,3 +1,3 @@
-import math as jean
+import math as Jean
 moi = 7
-jean.atanh(moi) #HumourDeMerde ... x)
+Jean.atan(moi) #HumourDeMerde ... x)
