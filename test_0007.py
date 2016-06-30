@@ -19,7 +19,7 @@ def player(heart):
     :return:
     """
     
-    player.earth = 20
+    player.heart = 20
 
     if player.heart < 0:
         return False
