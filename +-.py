@@ -13,3 +13,24 @@ while gameLoop:
     if choice > randomNum: print("<")
     elif choice < randomNum: print(">")
     elif choice == randomNum: gameLoop = False
+
+        
+#VERSUS : new version : (beautifull :o but equals lolilolilol)
+
+import random as rand
+
+secret = rand.randrange(0, 100)
+GAME_LOOP = True
+
+while GAME_LOOP:
+
+    choice = int(input())
+
+    print(secret)
+
+    if choice == secret: 
+        print("WIN")
+        GAME_LOOP = False
+
+    elif secret > choice: print(">")
+    elif secret < choice: print("<")
