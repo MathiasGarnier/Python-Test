@@ -17,7 +17,13 @@ while gameLoop:
         
 #VERSUS : new version : (beautiful :o but equals lolilolilol)
 
-import random as rand
+try:
+    import random as rand
+    import os
+
+except ImportError:
+    print("Please retry")
+    os.system("PAUSE")
 
 secret = rand.randrange(0, 100)
 GAME_LOOP = True
