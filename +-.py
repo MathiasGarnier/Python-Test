@@ -15,7 +15,7 @@ while gameLoop:
     elif choice == randomNum: gameLoop = False
 
         
-#VERSUS : new version : (beautifull :o but equals lolilolilol)
+#VERSUS : new version : (beautiful :o but equals lolilolilol)
 
 import random as rand
 
