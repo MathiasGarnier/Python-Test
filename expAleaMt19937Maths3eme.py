@@ -2,8 +2,6 @@ from random import randint
 import matplotlib.pyplot as plt
 import time
 
-start_time = time.clock()
-
 def getRandomInteger():
     return randint(0, 3) + 1
 
@@ -13,6 +11,8 @@ GREEN   = 0 # id = 2
 YELLOW  = 0 # id = 3
 BLUE    = 0 # id = 4
 a = []
+
+start_time = time.clock()
 
 for i in range(BIteration):
 
