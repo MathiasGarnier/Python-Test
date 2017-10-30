@@ -26,6 +26,6 @@ while Running:
 
     for it in range(NB_CLIENT):
         if getattr(a[it], "sold") >= SCORE_TO_REACH:
-            print("We've a winner ! This is client number : {}. (He needed {} steps.)".format(getattr(a[it], "clientID"), counter))
+            print("We've a winner ! This is client number : {}. (He's needed {} steps.)".format(getattr(a[it], "clientID"), counter))
             Running = False
     counter += 1
